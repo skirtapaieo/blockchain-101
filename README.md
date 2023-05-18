@@ -18,4 +18,14 @@ decentralizing the internet :-)
 - whats app 
 
 ## Decentralized
-- 
+- Bitcoin 
+- Ethereum 
+- DeFi
+- DAO's 
+- IPFS
+- Tor Network
+- Decentralized Social Media (BlueSky)
+- Open Source SW projects (often decentralized)
+
+## Ledgers 
+
