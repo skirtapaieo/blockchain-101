@@ -9,7 +9,7 @@ decentralizing the internet :-)
 
 # centralized vs decentralized 
 
-Centralized (controlled by a single entity) 
+## Centralized (controlled by a single entity) 
 - google 
 - coinbase
 - banks 
@@ -17,5 +17,5 @@ Centralized (controlled by a single entity)
 - US government 
 - whats app 
 
-Decentralized
+## Decentralized
 - 
