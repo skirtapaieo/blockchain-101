@@ -16,7 +16,7 @@ Central to the dApp will be a "smart contract", that will be deployed on Ethereu
 
 Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo/blockchain-101/blob/main/code/smart-contract.sol
 
-## Front-ned 
+## Front-end 
 
 ## Decentralized storage
 
