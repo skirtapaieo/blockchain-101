@@ -3,7 +3,7 @@ decentralizing the internet :-)
 
 # Index 
 
-# blockchain-101 Index
+# BlockchainExpert 
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
