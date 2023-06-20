@@ -40,6 +40,8 @@ decentralizing the internet :-)
 
 ## Ledgers 
 
+https://github.com/skirtapaieo/blockchain-101/blob/main/code/blockchain-ledger.py
+
 
 
 
