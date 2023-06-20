@@ -3,7 +3,7 @@
 How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
 
 - [Building a Web3 dApp - a decentralized art marketplace](#building-a-web3-dapp---a-decentralized-art-marketplace)
-- [BlockchainExpert (course at Algoexpert.ai)](#blockchainexpert-course-at-algoexpertai)
+- [BlockchainExpert Course)](#blockchainexpert-course)
 - [Mining](#mining)
 
 
@@ -27,10 +27,7 @@ Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo
 
 
 
-
-
-
-# 2  BlockchainExpert (course at Algoexpert.ai)
+# 2  BlockchainExpert Course
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
