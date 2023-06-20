@@ -14,6 +14,8 @@ We are creating a decentralized marketplace, for digital art.
 
 Central to the dApp will be a "smart contract", that will be deployed on Ethereum. 
 
+Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo/blockchain-101/blob/main/code/smart-contract.sol
+
 ## Front-ned 
 
 ## Decentralized storage
