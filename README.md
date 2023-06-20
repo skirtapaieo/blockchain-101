@@ -17,7 +17,8 @@ Examples: Aragon and Dework
   - [Centralized (controlled by a single entity)](#centralized-controlled-by-a-single-entity)
   - [Decentralized](#decentralized)
 - [Ledgers](#ledgers)
-
+- [Walllets](#wallets)
+- [Transactions](#transactions) 
 
 # web 1.0, 2.0, 3.0 
 
