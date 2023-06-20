@@ -1,5 +1,6 @@
 # blockchain-101
-decentralizing the internet :-)
+
+How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
 
 # Building a Web3 dApp - a decentralized art marketplace 
 
