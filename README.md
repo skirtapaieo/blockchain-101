@@ -1,7 +1,7 @@
 # blockchain-101
 decentralizing the internet :-)
 
-# Dao 
+# Distributed autonomous organizations - DAO's 
 
 Examples: Aragon and Dework
 
