@@ -138,9 +138,19 @@ new_block = create_new_block(valid_transactions)
 
 ```
 
-Proof-of-Work: The miners' computers then try to find a nonce (a random number) that, when hashed with the rest of the content of the block, produces a hash with a certain number of leading zeroes (according to the current difficulty target). This step involves repeatedly changing the nonce and hashing the block until a suitable hash is found. This is the 'work' in Proof-of-Work.
+**Proof-of-Work**
+The miners' computers then try to find a nonce (a random number) that, when hashed with the rest of the content of the block, produces a hash with a certain number of leading zeroes (according to the current difficulty target). This step involves repeatedly changing the nonce and hashing the block until a suitable hash is found. This is the 'work' in Proof-of-Work.
 
-Adding Block to the Chain: Once a miner finds a nonce that results in a suitable hash, they broadcast this block to the rest of the network. Other miners verify the block and, if it is valid, add it to their copies of the blockchain. This block is then considered 'confirmed'.
+```
+# Try to solve the proof of work for the block
+while not is_valid_proof(new_block):
+    # Change the nonce
+    new_block['nonce'] += 1
 
-Reward: The miner who found the suitable hash is rewarded with newly minted Bitcoin (the block reward) and transaction fees from the transactions included in the block.
+```
+
+
+**Adding Block to the Chain** Once a miner finds a nonce that results in a suitable hash, they broadcast this block to the rest of the network. Other miners verify the block and, if it is valid, add it to their copies of the blockchain. This block is then considered 'confirmed'.
+
+**Reward** The miner who found the suitable hash is rewarded with newly minted Bitcoin (the block reward) and transaction fees from the transactions included in the block.
 
