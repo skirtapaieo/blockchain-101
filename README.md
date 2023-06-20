@@ -111,7 +111,9 @@ internet_connection = ensure_internet_connection()
 ```
 
 
-**Transaction Verification**. Miners pickup several unconfirmed transactions from the Bitcoin network's mempool.
+**Transaction Verification**
+Miners pickup several unconfirmed transactions from the Bitcoin network's mempool.
+
 ```
 # Fetch transactions from mempool
 mempool_transactions = rpc_connection.getrawmempool()
@@ -126,12 +128,10 @@ for txid in mempool_transactions:
     # Note: In reality, Bitcoin nodes do this automatically
     if verify_transaction(tx_details):
         valid_transactions.append(tx_details)
-
 ```
 
-They check these transactions to ensure their validity.
-
-Block Creation: They then compile these transactions into a 'block'. Along with the transaction data, each block contains the hash of the previous block (to maintain the chain's integrity) and a nonce.
+**Block Creation** 
+They then compile these transactions into a 'block'. Along with the transaction data, each block contains the hash of the previous block (to maintain the chain's integrity) and a nonce.
 
 Proof-of-Work: The miners' computers then try to find a nonce (a random number) that, when hashed with the rest of the content of the block, produces a hash with a certain number of leading zeroes (according to the current difficulty target). This step involves repeatedly changing the nonce and hashing the block until a suitable hash is found. This is the 'work' in Proof-of-Work.
 
