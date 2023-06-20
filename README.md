@@ -1,4 +1,4 @@
-# blockchain-101
+# blockchain-Dapp-Mining-101
 
 How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
 
