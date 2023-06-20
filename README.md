@@ -3,25 +3,8 @@
 How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
 
 - [1. Building a Web3 dApp - a decentralized art marketplace](#1-building-a-web3-dapp---a-decentralized-art-marketplace)
-  - [Smart contract](#smart-contract)
-  - [Front-end](#front-end)
-  - [Decentralized storage](#decentralized-storage)
-  - [Identity](#identity)
-  - [DAO](#dao)
-- [2. BlockchainExpert (course at Algoexpert.ai)](#2-blockchainexpert-course-at-algoexpertai)
-  - [Web 1.0, 2.0, 3.0](#web-10-20-30)
-  - [Centralized vs Decentralized](#centralized-vs-decentralized)
-    - [Centralized (controlled by a single entity)](#centralized-controlled-by-a-single-entity)
-    - [Decentralized](#decentralized)
-  - [Ledgers](#ledgers)
-  - [Wallets](#wallets)
-  - [Transactions](#transactions)
-  - [Blocks](#blocks)
-  - [Blockchain security](#blockchain-security)
-- [3. Mining](#3-mining)
-- [4. Consensus Mechanisms](#4-consensus-mechanisms)
-  - [Proof of Work (PoW)](#proof-of-work-pow)
-  - [Proof of Stake (PoS)](#proof-of-stake-pos)
+  [2. BlockchainExpert (course at Algoexpert.ai)](#2-blockchainexpert-course-at-algoexpertai)
+  [3. Mining](#3-mining)
 
 
 # 1- Building a Web3 dApp - a decentralized art marketplace 
