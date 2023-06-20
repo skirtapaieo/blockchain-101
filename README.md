@@ -93,6 +93,24 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 
 Mining is a process of creating new blocks on the Bitcoin blockchain
 
+**Requisites for mining** 
+
+```
+# Obtain necessary hardware
+asic_miner = acquire_ASIC_miner()
+
+# Install and set up Bitcoin client software
+bitcoin_client = install_bitcoin_client()
+
+# Synchronize the blockchain
+blockchain = bitcoin_client.synchronize_blockchain()
+
+# Ensure constant internet connection
+internet_connection = ensure_internet_connection()
+
+```
+
+
 **Transaction Verification**. Miners pickup several unconfirmed transactions from the Bitcoin network's mempool.
 ```
 # Fetch transactions from mempool
