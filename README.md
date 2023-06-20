@@ -149,11 +149,21 @@ The miners' computers then try to find a nonce (a random number) that, when hash
 while not is_valid_proof(new_block):
     # Change the nonce
     new_block['nonce'] += 1
+```
+
+**Adding Block to the Chain** 
+Once a miner finds a nonce that results in a suitable hash, they broadcast this block to the rest of the network. Other miners verify the block and, if it is valid, add it to their copies of the blockchain. This block is then considered 'confirmed'.
+```
+# Submit the new block to the network
+submit_block(new_block)
+
+# If another block is broadcast at the same time and causes a fork
+if blockchain_forked():
+    # Follow the longest chain
+    follow_longest_chain()
 
 ```
 
-
-**Adding Block to the Chain** Once a miner finds a nonce that results in a suitable hash, they broadcast this block to the rest of the network. Other miners verify the block and, if it is valid, add it to their copies of the blockchain. This block is then considered 'confirmed'.
 
 **Reward** The miner who found the suitable hash is rewarded with newly minted Bitcoin (the block reward) and transaction fees from the transactions included in the block.
 
