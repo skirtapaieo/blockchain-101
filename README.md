@@ -164,9 +164,10 @@ submit_block(new_block)
 if blockchain_forked():
     # Follow the longest chain
     follow_longest_chain()
-
 ```
-
-
-**Reward** The miner who found the suitable hash is rewarded with newly minted Bitcoin (the block reward) and transaction fees from the transactions included in the block.
+**Reward** 
+The miner who found the suitable hash is rewarded with newly minted Bitcoin (the block reward) and transaction fees from the transactions included in the block.
+```
+# The miner's reward is automatically added to their address in the blockchain
+```
 
