@@ -152,7 +152,10 @@ while not is_valid_proof(new_block):
 ```
 
 **Adding Block to the Chain** 
-Once a miner finds a nonce that results in a suitable hash, they broadcast this block to the rest of the network. Other miners verify the block and, if it is valid, add it to their copies of the blockchain. This block is then considered 'confirmed'.
+Once a miner finds a nonce that results in a suitable hash, they broadcast this block to the rest of the network. 
+If two miners solve the proof-of-work problem at roughly the same time, the network will temporarily "fork" into two separate chains. 
+However, the tie is broken as soon as a miner mines another block on top of one of these blocks. 
+The longest chain always wins, and any blocks not in the longest chain are discarded. Any transactions in those blocks that aren't in the winning blocks are returned to the mempool to be included in future blocks.
 ```
 # Submit the new block to the network
 submit_block(new_block)
