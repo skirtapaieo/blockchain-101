@@ -1,4 +1,4 @@
-# blockchain-Dapp-Mining-101
+# blockchain-dapp-mining-101
 
 A first few steps in creating 1) Web3 Apps, 2) taking a blockchain course, 3) learning about mining  
 
