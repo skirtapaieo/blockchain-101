@@ -131,7 +131,12 @@ for txid in mempool_transactions:
 ```
 
 **Block Creation** 
-They then compile these transactions into a 'block'. Along with the transaction data, each block contains the hash of the previous block (to maintain the chain's integrity) and a nonce.
+They then compile these transactions into a 'block'. 
+```
+# Create a new block with the valid transactions
+new_block = create_new_block(valid_transactions)
+
+```
 
 Proof-of-Work: The miners' computers then try to find a nonce (a random number) that, when hashed with the rest of the content of the block, produces a hash with a certain number of leading zeroes (according to the current difficulty target). This step involves repeatedly changing the nonce and hashing the block until a suitable hash is found. This is the 'work' in Proof-of-Work.
 
