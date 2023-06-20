@@ -1,16 +1,16 @@
 # blockchain-101
 decentralizing the internet :-)
 
-# Distributed autonomous organizations - DAO's 
+# 1 - Distributed autonomous organizations - DAO's 
 
 Examples: Aragon and Dework
 
 
-# Building a Web3 dApp
+# 2 - Building a Web3 dApp
 
 
 
-# BlockchainExpert 
+# 3- BlockchainExpert 
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
