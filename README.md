@@ -3,7 +3,7 @@ decentralizing the internet :-)
 
 # Dao 
 
-Examples Aragon and Dework
+Examples: Aragon and Dework
 
 
 # Building a Web3 dApp
