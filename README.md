@@ -93,7 +93,25 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 
 Mining is a process of creating new blocks on the Bitcoin blockchain
 
-1. **Transaction Verification**. Miners start by picking up several unconfirmed transactions from the Bitcoin network's mempool. They check these transactions to ensure their validity.
+**Transaction Verification**. Miners pickup several unconfirmed transactions from the Bitcoin network's mempool.
+```
+# Fetch transactions from mempool
+mempool_transactions = rpc_connection.getrawmempool()
+
+# For each transaction in mempool
+for txid in mempool_transactions:
+    # Get the transaction details
+    raw_tx = rpc_connection.getrawtransaction(txid)
+    tx_details = rpc_connection.decoderawtransaction(raw_tx)
+    
+    # Verify the transaction
+    # Note: In reality, Bitcoin nodes do this automatically
+    if verify_transaction(tx_details):
+        valid_transactions.append(tx_details)
+
+```
+
+They check these transactions to ensure their validity.
 
 Block Creation: They then compile these transactions into a 'block'. Along with the transaction data, each block contains the hash of the previous block (to maintain the chain's integrity) and a nonce.
 
