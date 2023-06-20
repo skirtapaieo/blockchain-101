@@ -1,6 +1,6 @@
 # blockchain-Dapp-Mining-101
 
-How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
+A first few steps in creating 1) Web3 Apps, 2) taking a blockchain course, 3) learning about mining  
 
 - [Building a Web3 dApp - a decentralized art marketplace](#building-a-web3-dapp---a-decentralized-art-marketplace)
 - [BlockchainExpert Course](#blockchainexpert-course)
