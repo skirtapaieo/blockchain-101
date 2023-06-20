@@ -1,12 +1,7 @@
 # blockchain-101
 decentralizing the internet :-)
 
-# 1 - Distributed autonomous organizations - DAO's 
-
-Examples: Aragon and Dework
-
-
-# 2 - Building a Web3 dApp - a decentralized art marketplace 
+# Building a Web3 dApp - a decentralized art marketplace 
 
 We are creating a decentralized marketplace, for digital art. 
 
@@ -29,7 +24,7 @@ Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo
 
 
 
-# 3- BlockchainExpert (course at Algoexpert.ai)
+# BlockchainExpert (course at Algoexpert.ai)
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
