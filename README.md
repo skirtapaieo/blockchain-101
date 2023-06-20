@@ -2,9 +2,9 @@
 
 How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
 
-- [Building a Web3 dApp - a decentralized art marketplace](#1-building-a-web3-dapp---a-decentralized-art-marketplace)
-- [BlockchainExpert (course at Algoexpert.ai)](#2-blockchainexpert-course-at-algoexpertai)
-- [Mining](#3-mining)
+- [Building a Web3 dApp - a decentralized art marketplace](#building-a-web3-dapp---a-decentralized-art-marketplace)
+- [BlockchainExpert (course at Algoexpert.ai)](#blockchainexpert-course-at-algoexpertai)
+- [Mining](#mining)
 
 
 # Building a Web3 dApp - a decentralized art marketplace 
