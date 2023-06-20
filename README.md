@@ -27,7 +27,7 @@ Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo
 
 
 
-# 2  BlockchainExpert Course
+# BlockchainExpert Course
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
