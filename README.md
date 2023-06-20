@@ -80,5 +80,6 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/code/create-transaction.
 
 Maz supply of Bitcoin is 21 M BTC, currently 19.1 is used. Satoshi Nakamoto inventor (pseudonym)
 
+https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 
 
