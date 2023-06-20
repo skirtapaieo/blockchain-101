@@ -2,7 +2,7 @@
 
 How to build a Web3 dApp and the Blockchainexpert course at Algoexpert  
 
-# Building a Web3 dApp - a decentralized art marketplace 
+# 1- Building a Web3 dApp - a decentralized art marketplace 
 
 We are creating a decentralized marketplace, for digital art. 
 
@@ -25,7 +25,7 @@ Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo
 
 
 
-# BlockchainExpert (course at Algoexpert.ai)
+# 2  BlockchainExpert (course at Algoexpert.ai)
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
@@ -83,13 +83,13 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/code/create-transaction.
 Maz supply of Bitcoin is 21 M BTC, currently 19.1 is used. Satoshi Nakamoto inventor (pseudonym). A block is approximately 1 MB, and it is enough to store approx 2000 transactions. 
 https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 
-# Blockchain security 
+## Blockchain security 
 
 - Decentralization makes it harder to compromise the network
 - Cryptography used to secure data, digital signing using private key, all data is hashed
 - 51% attack is when an entity controls more than 50% of Bitcoin mining hash rate (the processing power)
 
-# Mining 
+# 3 - Mining 
 
 Mining is a process of creating new blocks on the Bitcoin blockchain
 
