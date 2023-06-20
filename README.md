@@ -6,11 +6,28 @@ decentralizing the internet :-)
 Examples: Aragon and Dework
 
 
-# 2 - Building a Web3 dApp
+# 2 - Building a Web3 dApp - a decentralized art marketplace 
+
+We are creating a decentralized marketplace, for digital art. 
+
+## Smart contract 
+
+Central to the dApp will be a "smart contract", that will be deployed on Ethereum. 
+
+## Front-ned 
+
+## Decentralized storage
+
+## Identity 
+
+## DAO 
 
 
 
-# 3- BlockchainExpert 
+
+
+
+# 3- BlockchainExpert (course at Algoexpert.ai)
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
