@@ -33,7 +33,10 @@ Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo
   - [Decentralized](#decentralized)
 - [Ledgers](#ledgers)
 - [Wallets](#wallets)
-- [Transactions](#transactions) 
+- [Transactions](#transactions)
+- [Blocks](#blocks)
+- [Blockchain security](#blockchain-security)
+  
 
 ## Summary 
 
