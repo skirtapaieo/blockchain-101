@@ -87,13 +87,33 @@ const contract = new web3.eth.Contract(ABI, contractAddress);
 
 ## Buy art 
 
+```
+const contract = new web3.eth.Contract(contractABI, contractAddress);
+```
+
 **web3.eth.Contract** is a function in web3.js that creates a new contract instance with all its methods and events defined in its JSON interface object, which is ABI (Application Binary Interface) in this case.
 
 **contractABI** is the ABI of your contract. The ABI is a JSON array that defines how to interact with the contract: it specifies the contract's functions, their names, return types, and other information. You get the ABI when you compile your Solidity contract.
 
 **contractAddress** is the address where your contract is deployed on the Ethereum network.
 
-## Mint Art 
+The resulting **contract** object allows us to interact with the contract from your JavaScript code 
+
+## Mint Art (from Smart Contract)
+
+```
+async function mintArt(name, description, price) {
+    const accounts = await web3.eth.getAccounts();
+    const account = accounts[0];
+
+    await contract.methods.mintArt(name, description, price)
+        .send({from: account})
+        .on('transactionHash', function(hash){
+            // This callback gets triggered when the transaction is being mined.
+            console.log('transactionHash', hash);
+        });
+}
+```
 
 
 
@@ -259,7 +279,28 @@ The miner who found the suitable hash is rewarded with newly minted Bitcoin (the
 
 # Creating a Wallet 
 
+It is very simple, using Metamask for example. Then if you're from Sweden you need Coinbase or Binance, to deposit funds to actually buy Eth. 
 <br>
 
 # Setting up a Node
+
+Running an Ethereum node means running software (an Ethereum client) that connects to the Ethereum network and maintains a copy of the entire blockchain on your device. The node verifies all transactions and blocks (following the Ethereum protocol rules) and can be used to submit new transactions to the network.
+
+There are several types of nodes you can run:
+
+- Full Node: This type of node downloads the entire blockchain to your device and fully verifies all transactions and blocks. It can be used to mine new blocks (if it's also a mining node).
+
+- Light Node (or Light Client): A light node only downloads a small portion of the blockchain, relying on full nodes for additional information. It's useful for devices with less storage capacity.
+
+- Archive Node: This node maintains the entire blockchain history along with all historical states and can be used to query any state at any point in time.
+
+Running an Ethereum node contributes to the decentralization and security of the network. It allows you to interact with the Ethereum network without relying on a third party, ensuring you can verify transactions yourself.
+
+There are several Ethereum clients that you can use to run a node, including but not limited to:
+
+- Geth: The most popular Ethereum node software, written in Go.
+- Parity: An Ethereum client written in Rust, known for its speed.
+- Nethermind: An Ethereum client written in .NET Core.
+
+The process of running a node involves downloading the client software, syncing it with the Ethereum network (which can take several hours to days, depending on the type of node), and then keeping it online to stay synced with new blocks.
 
