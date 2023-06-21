@@ -71,7 +71,23 @@ if (window.ethereum) {
 
 We check if MetaMask is installed, then MetaMask (or other) is installed in the users browser, the Web3 instance is then created, and enable is used to get the user's permission to access their Ethereum account. Then it checks for the older way and if neither exists/works it means that the user does not havea web3 provider and therefore cannot interact with the Ethereum blockchain. 
 
-### Get the 
+### Get the deployed contract 
+
+```
+const contractAddress = "<your_contract_address_here>";
+const ABI = <your_contract_ABI_here>; // This is the contract's ABI
+
+// get the contract instance
+const contract = new web3.eth.Contract(ABI, contractAddress);
+
+```
+
+
+## Buy art 
+
+## Mint Art 
+
+
 
 ## Decentralized storage
 
