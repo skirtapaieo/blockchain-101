@@ -252,6 +252,6 @@ The miner who found the suitable hash is rewarded with newly minted Bitcoin (the
 <br>
 
 # Creating a Wallet 
-
+<br>
 # Setting up a Node
 
