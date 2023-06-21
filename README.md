@@ -52,7 +52,26 @@ This contract (is simplified) and creates a new ERC721 token (the standard for N
 - when decides to buy would initiat a transaction to call the "buyArt" function in the smart contract
 - users need to confirm this transactions in their Ethereum wallet (like Metamask)
 - artists need an interfact to upload their art, provide details and mint their NFT's by calling the mintArt function (in the smart contract) 
-  
+
+### Setup and connect to MetaMask (Ethereum wallet provider enables interactions with decentralized applications) 
+
+```
+const Web3 = require('web3');
+let web3;
+
+if (window.ethereum) {
+    web3 = new Web3(window.ethereum);
+    window.ethereum.enable();
+} else if (window.web3) {
+    web3 = new Web3(window.web3.currentProvider);
+} else {
+    console.log('Non-Ethereum browser detected. Consider trying MetaMask!');
+}
+```
+
+We check if MetaMask is installed, then MetaMask (or other) is installed in the users browser, the Web3 instance is then created, and enable is used to get the user's permission to access their Ethereum account. Then it checks for the older way and if neither exists/works it means that the user does not havea web3 provider and therefore cannot interact with the Ethereum blockchain. 
+
+### Get the 
 
 ## Decentralized storage
 
