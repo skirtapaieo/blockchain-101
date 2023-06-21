@@ -18,6 +18,31 @@ Central to the dApp will be a "smart contract", that will be deployed on Ethereu
 
 Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo/blockchain-101/blob/main/code/smart-contract.sol
 
+```
+pragma solidity ^0.6.0;
+
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+
+contract ArtMarketplace is ERC721 {
+    uint public artId = 0;
+
+    constructor() ERC721("ArtMarketplace", "ART") public {}
+
+    function mintArt(string memory _tokenURI) public {
+        _mint(msg.sender, artId);
+        _setTokenURI(artId, _tokenURI);
+        artId++;
+    }
+    
+    function buyArt(uint _artId) public payable {
+        require(msg.value >= 0.01 ether, "Not enough ETH sent; check price!");
+        _transfer(ownerOf(_artId), msg.sender, _artId);
+    }
+}
+
+```
+
+
 ## Front-end 
 
 ## Decentralized storage
