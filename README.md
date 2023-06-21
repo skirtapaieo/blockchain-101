@@ -5,6 +5,7 @@
 - [Mining](#mining)
 
 <br>
+
 # Building a Web3 dApp - a decentralized art marketplace 
 
 We are creating a decentralized marketplace, for digital art. 
