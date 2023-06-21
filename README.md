@@ -8,6 +8,8 @@
 
 # Building a Web3 dApp - a decentralized art marketplace 
 
+<br> 
+
 We are creating a decentralized marketplace, for digital art. 
 
 ## Smart contract 
