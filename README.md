@@ -4,7 +4,7 @@
 - [BlockchainExpert Course](#blockchainexpert-course)
 - [Mining](#mining)
 
-
+<br>
 # Building a Web3 dApp - a decentralized art marketplace 
 
 We are creating a decentralized marketplace, for digital art. 
@@ -24,7 +24,7 @@ Example of a Smart Contract, written in Solidity: https://github.com/skirtapaieo
 ## DAO 
 
 
-
+<br>
 # BlockchainExpert Course
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
