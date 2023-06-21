@@ -87,6 +87,12 @@ const contract = new web3.eth.Contract(ABI, contractAddress);
 
 ## Buy art 
 
+**web3.eth.Contract** is a function in web3.js that creates a new contract instance with all its methods and events defined in its JSON interface object, which is ABI (Application Binary Interface) in this case.
+
+**contractABI** is the ABI of your contract. The ABI is a JSON array that defines how to interact with the contract: it specifies the contract's functions, their names, return types, and other information. You get the ABI when you compile your Solidity contract.
+
+**contractAddress** is the address where your contract is deployed on the Ethereum network.
+
 ## Mint Art 
 
 
