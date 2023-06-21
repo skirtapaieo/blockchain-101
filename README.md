@@ -149,6 +149,9 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 - Cryptography used to secure data, digital signing using private key, all data is hashed
 - 51% attack is when an entity controls more than 50% of Bitcoin mining hash rate (the processing power)
 
+
+<br>
+
 # Mining 
 
 Mining is a process of creating new blocks on the Bitcoin blockchain
