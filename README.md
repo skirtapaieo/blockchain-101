@@ -48,8 +48,8 @@ This contract (is simplified) and creates a new ERC721 token (the standard for N
 
 - The front-end could be a simple application written in JavaScript. 
 - The front-end could use Web3.js or Ethers.js to interact with the Etherreum blockchain. 
-- Users could browser listed art
-- when decided to buy would initiat a transaction to call the "buyArt" function in the smart contract
+- Users could browse listed art
+- when decides to buy would initiat a transaction to call the "buyArt" function in the smart contract
 - users need to confirm this transactions in their Ethereum wallet (like Metamask)
 - artists need an interfact to upload their art, provide details and mint their NFT's by calling the mintArt function (in the smart contract) 
   
