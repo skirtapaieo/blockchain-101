@@ -39,8 +39,9 @@ contract ArtMarketplace is ERC721 {
         _transfer(ownerOf(_artId), msg.sender, _artId);
     }
 }
-
 ```
+
+This contract (is simplified) and creates a new ERC721 token (the standard for NFTs on Ethereum) each time an artist minds new art. The string points to a JSON object stored off-chain on IPFS - Internet Planetary File System. They buy function assumes a fixed price. 
 
 
 ## Front-end 
