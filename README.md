@@ -3,7 +3,9 @@
 - [Building a Web3 dApp - a decentralized art marketplace](#building-a-web3-dapp---a-decentralized-art-marketplace)
 - [BlockchainExpert Course](#blockchainexpert-course)
 - [Mining](#mining)
-
+- [Creating a Wallet]("creating-a-wallet)
+- [Setting up a Node]("setting-up-a-node)
+  
 <br>
 
 # Building a Web3 dApp - a decentralized art marketplace 
