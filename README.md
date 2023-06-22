@@ -140,7 +140,7 @@ async function mintArt(name, description, price) {
   
 <br>
 
-## Introduction  
+## Introduction and Blockchain Fundamentals 
 
 ### web 1.0, 2.0, 3.0 
 
@@ -193,6 +193,18 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 - Decentralization makes it harder to compromise the network
 - Cryptography used to secure data, digital signing using private key, all data is hashed
 - 51% attack is when an entity controls more than 50% of Bitcoin mining hash rate (the processing power)
+
+## Ethereum and Smart Contracts 
+
+## Solidity Fundamentals 
+
+## Advanced Solidity 
+
+## Interacting with Smart contracts
+
+## Web3 tools 
+
+## Projects 
 
 
 <br>
