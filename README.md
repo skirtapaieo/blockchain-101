@@ -8,7 +8,7 @@
   
 <br>
 
-# Building a Web3 dApp - a decentralized art marketplace 
+# Part 1 - Building a Web3 dApp - a decentralized art marketplace 
 
 <br> 
 
@@ -126,7 +126,7 @@ async function mintArt(name, description, price) {
 
 <br>
 
-# BlockchainExpert Course
+# Part 2 - BlockchainExpert Course
 
 - [Web 1.0, 2.0, 3.0](#web-10-20-30)
 - [Centralized vs Decentralized](#centralized-vs-decentralized)
@@ -138,18 +138,19 @@ async function mintArt(name, description, price) {
 - [Blocks](#blocks)
 - [Blockchain security](#blockchain-security)
   
+<br>
 
-## Summary 
+## Introduction  
 
-## web 1.0, 2.0, 3.0 
+### web 1.0, 2.0, 3.0 
 
 - Web 1.0 - read-only internet, no advertising 
 - Web 2.0 - current state of web, centralized ownership, heavy advertising, front-end focus  
 - Web 3.0 - idea around the future, decentralized control, more back-end focus
 
-## centralized vs decentralized 
+### centralized vs decentralized 
 
-### Centralized (controlled by a single entity) 
+#### Centralized (controlled by a single entity) 
 - google 
 - coinbase
 - banks 
@@ -157,7 +158,7 @@ async function mintArt(name, description, price) {
 - US government 
 - whats app 
 
-### Decentralized
+#### Decentralized
 - Bitcoin 
 - Ethereum 
 - DeFi
@@ -167,27 +168,27 @@ async function mintArt(name, description, price) {
 - Decentralized Social Media (BlueSky)
 - Open Source SW projects (often decentralized)
 
-## Ledgers 
+### Ledgers 
 
 https://github.com/skirtapaieo/blockchain-101/blob/main/code/blockchain-ledger.py
 
 
-## Wallets 
+### Wallets 
 
 https://github.com/skirtapaieo/blockchain-101/blob/main/code/bitcoin-keys-and-address.py
 https://github.com/skirtapaieo/blockchain-101/blob/main/code/encrypt-decrypt.py
 https://github.com/skirtapaieo/blockchain-101/blob/main/code/wallet-example.py
 
-## Transactions 
+### Transactions 
 
 https://github.com/skirtapaieo/blockchain-101/blob/main/code/create-transaction.py
 
-## Blocks 
+### Blocks 
 
 Maz supply of Bitcoin is 21 M BTC, currently 19.1 is used. Satoshi Nakamoto inventor (pseudonym). A block is approximately 1 MB, and it is enough to store approx 2000 transactions. 
 https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 
-## Blockchain security 
+### Blockchain security 
 
 - Decentralization makes it harder to compromise the network
 - Cryptography used to secure data, digital signing using private key, all data is hashed
@@ -196,7 +197,7 @@ https://github.com/skirtapaieo/blockchain-101/blob/main/models/block.model.png
 
 <br>
 
-# Mining 
+# Part 3 - Mining 
 
 Mining is a process of creating new blocks on the Bitcoin blockchain
 
